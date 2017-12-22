@@ -13,6 +13,9 @@
 		2D5C2CE91FE6AEBB005BD555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D5C2CE81FE6AEBB005BD555 /* Assets.xcassets */; };
 		2D5C2CEC1FE6AEBB005BD555 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D5C2CEA1FE6AEBB005BD555 /* LaunchScreen.storyboard */; };
 		2D5C2CF71FE6AEBB005BD555 /* Inductive_Reasoning_ExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C2CF61FE6AEBB005BD555 /* Inductive_Reasoning_ExerciseTests.swift */; };
+		2D5C2D021FE6AF4E005BD555 /* QuizVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C2D011FE6AF4E005BD555 /* QuizVC.swift */; };
+		2D5C2D041FE6AF80005BD555 /* QuizCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C2D031FE6AF80005BD555 /* QuizCVCell.swift */; };
+		2D5C2D061FE6AF9E005BD555 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C2D051FE6AF9E005BD555 /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		2D5C2CF21FE6AEBB005BD555 /* Inductive Reasoning ExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Inductive Reasoning ExerciseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D5C2CF61FE6AEBB005BD555 /* Inductive_Reasoning_ExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inductive_Reasoning_ExerciseTests.swift; sourceTree = "<group>"; };
 		2D5C2CF81FE6AEBB005BD555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D5C2D011FE6AF4E005BD555 /* QuizVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizVC.swift; sourceTree = "<group>"; };
+		2D5C2D031FE6AF80005BD555 /* QuizCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizCVCell.swift; sourceTree = "<group>"; };
+		2D5C2D051FE6AF9E005BD555 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,9 @@
 				2D5C2CE81FE6AEBB005BD555 /* Assets.xcassets */,
 				2D5C2CEA1FE6AEBB005BD555 /* LaunchScreen.storyboard */,
 				2D5C2CED1FE6AEBB005BD555 /* Info.plist */,
+				2D5C2D011FE6AF4E005BD555 /* QuizVC.swift */,
+				2D5C2D031FE6AF80005BD555 /* QuizCVCell.swift */,
+				2D5C2D051FE6AF9E005BD555 /* Result.swift */,
 			);
 			path = "Inductive Reasoning Exercise";
 			sourceTree = "<group>";
@@ -200,6 +209,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D5C2CE41FE6AEBB005BD555 /* ViewController.swift in Sources */,
+				2D5C2D061FE6AF9E005BD555 /* Result.swift in Sources */,
+				2D5C2D041FE6AF80005BD555 /* QuizCVCell.swift in Sources */,
+				2D5C2D021FE6AF4E005BD555 /* QuizVC.swift in Sources */,
 				2D5C2CE21FE6AEBB005BD555 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +368,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VBYSE8QK9R;
 				INFOPLIST_FILE = "Inductive Reasoning Exercise/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Apple-Inc..Inductive-Reasoning-Exercise";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -371,6 +384,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VBYSE8QK9R;
 				INFOPLIST_FILE = "Inductive Reasoning Exercise/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Apple-Inc..Inductive-Reasoning-Exercise";
 				PRODUCT_NAME = "$(TARGET_NAME)";
