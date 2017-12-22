@@ -16,6 +16,8 @@
 		2D5C2D021FE6AF4E005BD555 /* QuizVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C2D011FE6AF4E005BD555 /* QuizVC.swift */; };
 		2D5C2D041FE6AF80005BD555 /* QuizCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C2D031FE6AF80005BD555 /* QuizCVCell.swift */; };
 		2D5C2D061FE6AF9E005BD555 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C2D051FE6AF9E005BD555 /* Result.swift */; };
+		2D5C2D741FED2A17005BD555 /* coreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C2D721FED2A17005BD555 /* coreData.xcdatamodeld */; };
+		2D5C2D761FED2A7D005BD555 /* coreDatahandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5C2D751FED2A7D005BD555 /* coreDatahandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		2D5C2D011FE6AF4E005BD555 /* QuizVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizVC.swift; sourceTree = "<group>"; };
 		2D5C2D031FE6AF80005BD555 /* QuizCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizCVCell.swift; sourceTree = "<group>"; };
 		2D5C2D051FE6AF9E005BD555 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		2D5C2D731FED2A17005BD555 /* coreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = coreData.xcdatamodel; sourceTree = "<group>"; };
+		2D5C2D751FED2A7D005BD555 /* coreDatahandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreDatahandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,8 @@
 				2D5C2D011FE6AF4E005BD555 /* QuizVC.swift */,
 				2D5C2D031FE6AF80005BD555 /* QuizCVCell.swift */,
 				2D5C2D051FE6AF9E005BD555 /* Result.swift */,
+				2D5C2D721FED2A17005BD555 /* coreData.xcdatamodeld */,
+				2D5C2D751FED2A7D005BD555 /* coreDatahandler.swift */,
 			);
 			path = "Inductive Reasoning Exercise";
 			sourceTree = "<group>";
@@ -211,7 +217,9 @@
 				2D5C2CE41FE6AEBB005BD555 /* ViewController.swift in Sources */,
 				2D5C2D061FE6AF9E005BD555 /* Result.swift in Sources */,
 				2D5C2D041FE6AF80005BD555 /* QuizCVCell.swift in Sources */,
+				2D5C2D761FED2A7D005BD555 /* coreDatahandler.swift in Sources */,
 				2D5C2D021FE6AF4E005BD555 /* QuizVC.swift in Sources */,
+				2D5C2D741FED2A17005BD555 /* coreData.xcdatamodeld in Sources */,
 				2D5C2CE21FE6AEBB005BD555 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -458,6 +466,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2D5C2D721FED2A17005BD555 /* coreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2D5C2D731FED2A17005BD555 /* coreData.xcdatamodel */,
+			);
+			currentVersion = 2D5C2D731FED2A17005BD555 /* coreData.xcdatamodel */;
+			path = coreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2D5C2CD61FE6AEBB005BD555 /* Project object */;
 }

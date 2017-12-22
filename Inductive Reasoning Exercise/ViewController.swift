@@ -7,15 +7,26 @@
 //
 
 import UIKit
-
-import UIKit
+import CoreData
 
 class ViewController: UIViewController {
     
     var window: UIWindow?
     var btnNo: Int?
+    var scorehistory:[ScoreHistory]? = nil
+
     
     override func viewDidLoad() {
+        
+        
+        if coreDatahandler.saveObject(score: 95, date: Date()) {
+            scorehistory = coreDatahandler.fetchObject()
+            
+            for i in scorehistory!{
+                print(i.score)
+            }
+        }
+        
         super.viewDidLoad()
         self.title="Inductive Reasoning"
         self.view.backgroundColor=UIColor.white
