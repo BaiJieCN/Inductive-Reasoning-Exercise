@@ -44,6 +44,17 @@ class ResultVC: UIViewController {
         }
         lblRating.text = "You beated \(s)% of the population!"
         lblRating.textColor=color
+        
+        let coreDatasaveresult = coreDatahandler.saveObject(score: s, date: Date())
+        if !coreDatasaveresult {
+            print("Save data error")
+        }
+        
+        let scorehistory = coreDatahandler.fetchObject()
+        
+        for i in scorehistory!{
+            print(i.score, i.date!)
+        }
     }
     
     @objc func btnRestartAction() {

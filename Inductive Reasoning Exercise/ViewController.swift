@@ -19,13 +19,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         
         
-        if coreDatahandler.saveObject(score: 95, date: Date()) {
-            scorehistory = coreDatahandler.fetchObject()
-            
-            for i in scorehistory!{
-                print(i.score)
-            }
-        }
+//        if coreDatahandler.saveObject(score: 80, date: Date()) {
+//            scorehistory = coreDatahandler.fetchObject()
+//
+//            for i in scorehistory!{
+//                print(i.score)
+//            }
+//        }
         
         super.viewDidLoad()
         self.title="Inductive Reasoning"
