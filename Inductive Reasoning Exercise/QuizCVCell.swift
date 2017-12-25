@@ -37,8 +37,8 @@ class QuizCVCell: UICollectionViewCell {
             
             if unwrappedQue.isAnswered {
 //                btnsArray[unwrappedQue.correctAns].backgroundColor=UIColor.green
-//                if unwrappedQue.wrongAns >= 0 {
-//                    btnsArray[unwrappedQue.wrongAns].backgroundColor=UIColor.red
+//                if unwrappedQue.wrongAnswered >= 0 {
+//                    btnsArray[unwrappedQue.wrongAnswered].backgroundColor=UIColor.red
 //                }
                 btnsArray[unwrappedQue.selectedAns!].backgroundColor = UIColor.yellow
             }
