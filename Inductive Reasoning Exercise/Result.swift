@@ -21,7 +21,7 @@ class ResultVC: UIViewController {
     }
     
     func showRating() {
-        var rating = ""
+        var rating: String?
         var color = UIColor.black
         guard let sc = score, let tc = totalScore else { return }
         let s = sc * 100 / tc
