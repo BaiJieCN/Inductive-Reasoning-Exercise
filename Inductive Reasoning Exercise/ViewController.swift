@@ -37,11 +37,11 @@ class ViewController: UIViewController {
     @objc func btnGetStartedAction(sender: UIButton) {
         let v=QuizVC()
         if sender == btnGetStarted1 {
-            v.numberOfquestions = 5
-        } else if sender == btnGetStarted2 {
             v.numberOfquestions = 10
-        } else if sender == btnGetStarted3 {
+        } else if sender == btnGetStarted2 {
             v.numberOfquestions = 15
+        } else if sender == btnGetStarted3 {
+            v.numberOfquestions = 20
         }
         self.navigationController?.pushViewController(v, animated: true)
     }
@@ -86,7 +86,7 @@ class ViewController: UIViewController {
     let btnGetStarted1: UIButton = {
         let btn=UIButton()
         btn.titleLabel?.adjustsFontSizeToFitWidth=true
-        btn.setTitle("   Start with 5 Questions   ", for: .normal)
+        btn.setTitle("   Start with 10 Questions   ", for: .normal)
         btn.setTitleColor(UIColor.white, for: .normal)
         btn.backgroundColor=UIColor.lightGray
         btn.layer.cornerRadius=5
@@ -99,7 +99,7 @@ class ViewController: UIViewController {
     let btnGetStarted2: UIButton = {
         let btn=UIButton()
         btn.titleLabel?.adjustsFontSizeToFitWidth=true
-        btn.setTitle("   Start with 10 Questions   ", for: .normal)
+        btn.setTitle("   Start with 15 Questions   ", for: .normal)
         btn.setTitleColor(UIColor.white, for: .normal)
         btn.backgroundColor=UIColor.purple
         btn.layer.cornerRadius=5
@@ -112,7 +112,7 @@ class ViewController: UIViewController {
     let btnGetStarted3: UIButton = {
         let btn=UIButton()
         btn.titleLabel?.adjustsFontSizeToFitWidth=true
-        btn.setTitle("   Start with 15 Questions   ", for: .normal)
+        btn.setTitle("   Start with 20 Questions   ", for: .normal)
         btn.setTitleColor(UIColor.white, for: .normal)
         btn.backgroundColor=UIColor.orange
         btn.layer.cornerRadius=5

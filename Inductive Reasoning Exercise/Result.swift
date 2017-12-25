@@ -28,19 +28,19 @@ class ResultVC: UIViewController {
         
         if s < 30 {
             rating = "Poor"
-            color = UIColor.darkGray
+            color = UIColor.blue
         }  else if s < 60 {
             rating = "Average"
             color = UIColor.blue
         } else if s < 80 {
             rating = "Good"
-            color = UIColor.yellow
+            color = UIColor.blue
         } else if s < 90 {
             rating = "Excellent"
-            color = UIColor.red
+            color = UIColor.blue
         } else if s <= 100 {
             rating = "Outstanding"
-            color = UIColor.orange
+            color = UIColor.blue
         }
         lblRating.text = "You beated \(s)% of the population!"
         lblRating.textColor=color
