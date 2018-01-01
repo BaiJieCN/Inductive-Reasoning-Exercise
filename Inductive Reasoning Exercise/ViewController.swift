@@ -48,36 +48,36 @@ class ViewController: UIViewController {
     
     func setupViews() {
         self.view.addSubview(lblTitle)
-        lblTitle.topAnchor.constraint(equalTo: self.view.topAnchor, constant: 200).isActive=true
+        lblTitle.topAnchor.constraint(equalTo: self.view.topAnchor, constant: 100).isActive=true
         lblTitle.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive=true
         lblTitle.widthAnchor.constraint(equalToConstant: 400).isActive=true
-        lblTitle.heightAnchor.constraint(equalToConstant: 80).isActive=true
+        lblTitle.heightAnchor.constraint(equalToConstant: 100).isActive=true
         
         self.view.addSubview(btnGetStarted1)
         btnGetStarted1.heightAnchor.constraint(equalToConstant: 50).isActive=true
         btnGetStarted1.widthAnchor.constraint(equalToConstant: 200).isActive=true
         btnGetStarted1.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive=true
-        btnGetStarted1.centerYAnchor.constraint(equalTo: self.view.centerYAnchor, constant: 20).isActive=true
+        btnGetStarted1.centerYAnchor.constraint(equalTo: self.view.centerYAnchor, constant: -50).isActive=true
         
         self.view.addSubview(btnGetStarted2)
         btnGetStarted2.heightAnchor.constraint(equalToConstant: 50).isActive=true
         btnGetStarted2.widthAnchor.constraint(equalToConstant: 200).isActive=true
         btnGetStarted2.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive=true
-        btnGetStarted2.centerYAnchor.constraint(equalTo: self.view.centerYAnchor, constant: 100).isActive=true
+        btnGetStarted2.centerYAnchor.constraint(equalTo: self.view.centerYAnchor, constant: 20).isActive=true
         
         self.view.addSubview(btnGetStarted3)
         btnGetStarted3.heightAnchor.constraint(equalToConstant: 50).isActive=true
         btnGetStarted3.widthAnchor.constraint(equalToConstant: 200).isActive=true
         btnGetStarted3.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive=true
-        btnGetStarted3.centerYAnchor.constraint(equalTo: self.view.centerYAnchor, constant: 180).isActive=true
+        btnGetStarted3.centerYAnchor.constraint(equalTo: self.view.centerYAnchor, constant: 90).isActive=true
     }
     
     let lblTitle: UILabel = {
         let lbl=UILabel()
-        lbl.text="Are you ready?"
+        lbl.text="Choose one question set"
         lbl.textColor=UIColor.darkGray
         lbl.textAlignment = .center
-        lbl.font = UIFont.systemFont(ofSize: 40)
+        lbl.font = UIFont.systemFont(ofSize: 28)
         lbl.numberOfLines=2
         lbl.translatesAutoresizingMaskIntoConstraints=false
         return lbl
