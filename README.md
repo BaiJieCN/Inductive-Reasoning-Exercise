@@ -1,6 +1,6 @@
 ## Spaces to improve
 ### Bug fix
-- Match the selection buttoms with the number of answers, there are some cases with only 4 answers
+- Match the selection buttons with the number of answers, there are some cases with only 4 answers
 
 ### Feature improvement
 - The questions are hardcoded in the program, better to maintain in a local JSON file, or fetch from an REST API, so we could dynamically change the questions
