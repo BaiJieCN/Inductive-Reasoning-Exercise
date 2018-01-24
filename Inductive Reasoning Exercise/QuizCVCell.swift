@@ -69,6 +69,7 @@ class QuizCVCell: UICollectionViewCell {
     
     func setupViews() {
         addSubview(imgView)
+        print("-------------- \(UIDevice().userInterfaceIdiom)")
         imgView.topAnchor.constraint(equalTo: self.topAnchor, constant: 50).isActive=true
         imgView.centerXAnchor.constraint(equalTo: self.centerXAnchor).isActive=true
         imgView.widthAnchor.constraint(equalToConstant: 320).isActive=true

@@ -48,7 +48,7 @@ class ViewController: UIViewController {
     
     func setupViews() {
         self.view.addSubview(lblTitle)
-        lblTitle.topAnchor.constraint(equalTo: self.view.topAnchor, constant: 100).isActive=true
+        lblTitle.topAnchor.constraint(equalTo: self.view.topAnchor, constant: 150).isActive=true
         lblTitle.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive=true
         lblTitle.widthAnchor.constraint(equalToConstant: 400).isActive=true
         lblTitle.heightAnchor.constraint(equalToConstant: 100).isActive=true
